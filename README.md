@@ -2,7 +2,7 @@
 
 A version of [TLKSimpleWebRTC](https://github.com/otalk/TLKSimpleWebRTC) which uses the official [Socket.IO client](https://github.com/socketio/socket.io-client-swift) for communicating with [Signalmaster](https://github.com/andyet/signalmaster). 
 
-## What is this all about? 
+## What is this all about? 
 At the time this document written, **Signalmaster** uses **Socket.IO** 1.3.7, while [AZSocketIO](https://github.com/lukabernardi/AZSocketIO), which is basis of socket communication in **TLKSimpleWebRTC**, uses 0.9. Since handshaking protocol between **Socket.IO** 0.9 and 1.0+ is different, **TLKSimpleWebRTC** is not working with the current **Signalmaster** anymore. Meanwhile, **Socket.IO** released their own iOS/OSX version, so this fork aims to use this implementation and create a compatible version with the latest **Signalmaster**.
 
 # Usage 
